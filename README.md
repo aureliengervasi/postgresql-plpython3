@@ -1,2 +1,2 @@
 # postgresql-plpython3
-Docker image for PostgreSQL 9.6 with plpython3u support
+Docker image for PostgreSQL 9.5 with plpython3u support

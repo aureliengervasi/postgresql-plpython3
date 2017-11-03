@@ -1,7 +1,7 @@
-FROM postgres:9.6
+FROM postgres:9.5.9
 
 RUN apt-get update
-RUN apt-get -y install python3 postgresql-plpython3-9.6
+RUN apt-get -y install python3 postgresql-plpython3-9.5
 RUN apt-get -y install python3-pip
 
 RUN  apt-get clean && \
